@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+a {
+  color: #faddcc;
+}
+
+.header {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+  z-index: 10;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+}
+
+.button-container {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-disturb {
+  border-radius: 10px;
+  background-color: #1dcaf5;
+  width: 200;
+  text-align: center;
+  height: 40px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  padding: 0 10px;
+}
