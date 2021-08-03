@@ -7,7 +7,10 @@
     <title>Shiba three.js app</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="./three/build/three.min.js"></script>
+    <script src="./fflate/umd/index.js"></script>
+
     <script src="./three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="./three/examples/js/loaders/FBXLoader.js"></script>
     <script src="./script.js"></script>
   </head>
   <body>
@@ -19,18 +22,33 @@
     </div>
     <div id="shiba"></div>
     <div class="button-container">
-      <div class="button-disturb" onclick="disturbShiba()">Disturb Shiba</div>
+      <div class="button-disturb" onclick="disturbShiba()">
+        Disturb Shiba & Ice Bear
+      </div>
     </div>
     <div class="footer">
-      This Shiba model is based on "
-      <a
-        href="https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c"
-      >
-        Shiba
-      </a>
-      " by "<a href="https://sketchfab.com/dogerlo">zixisun02</a>" licensed
-      under "
-      <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>"
+      <div>
+        This Shiba model is based on "
+        <a
+          href="https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c"
+        >
+          Shiba
+        </a>
+        " by "<a href="https://sketchfab.com/dogerlo">zixisun02</a>" licensed
+        under "
+        <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>"
+      </div>
+      <div>
+        This Ice Bear model is based on "
+        <a
+          href="https://sketchfab.com/3d-models/ice-bear-we-bare-bears-77f6d43d4dc740dfb8a500743676a18c"
+        >
+          Ice Bear (We Bare Bears)
+        </a>
+        " by "<a href="https://sketchfab.com/Nissato">nissato</a>" licensed
+        under "
+        <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>"
+      </div>
     </div>
   </body>
 </html>
